@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="11.7dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:textSize="15sp"
+                    android:textColor="@color/walkthrough_txt"
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get 10% off* "
+                    android:fontFamily="@font/roboto_regular"/>
+                <TextView
+                    android:textSize="11.7sp"
+                    android:textColor="#8f909e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On selected products or sellers, minimum bll required 300 rs."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/linear_add"
+                android:background="@drawable/blue_light_rect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/blue"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apply"
+                    android:fontFamily="@font/roboto_regular"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="#e2e2e2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="11.7dp"
+            android:layout_marginRight="11.7dp"/>
+    </LinearLayout>
+</LinearLayout>

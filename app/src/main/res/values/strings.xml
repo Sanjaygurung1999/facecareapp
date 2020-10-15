@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FARECARE</string>
+
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+    <string name="job_success">Work Completed</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="about_me">About Me</string>
+    <string name="my_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+
+    <string name="beauty_amp_spa">Beauty &amp; Spa</string>
+    <string name="_15">$15</string>
+    <string name="_30">$30</string>
+</resources>

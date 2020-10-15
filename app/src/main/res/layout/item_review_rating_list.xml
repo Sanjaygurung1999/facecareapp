@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:background="#f5f7f8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11.7dp"
+        android:layout_marginTop="11.7dp"
+        android:layout_marginRight="11.7dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/salon_at_home"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11.7dp"
+            app:cardBackgroundColor="@color/white">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="11.7sp"
+                        android:textColor="#7f8088"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="John Doe"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"/>
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/ic_star_black_24dp"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:textSize="15sp"
+                        android:textColor="#24c336"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4.5"
+                        android:fontFamily="@font/roboto_medium"/>
+                </LinearLayout>
+                <TextView
+                    android:textSize="13.3sp"
+                    android:textColor="@color/walkthrough_txt"
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Very Nice Service!"
+                    android:fontFamily="@font/roboto_medium"/>
+                <TextView
+                    android:textSize="8.3sp"
+                    android:textColor="#8f909e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delhi, on 13 March, 2018"
+                    android:fontFamily="@font/roboto_light"/>
+                <TextView
+                    android:textSize="13.3sp"
+                    android:textColor="#7f8088"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="It was absolute good service by Rapid, i will surely use it again."
+                    android:fontFamily="@font/roboto_regular"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

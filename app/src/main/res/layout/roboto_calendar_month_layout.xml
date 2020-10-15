@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/robotoCalendarDateTitleContainer"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/leftButton"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="@dimen/roboto_calendar_padding"
+        android:layout_marginRight="@dimen/roboto_calendar_padding"
+        app:srcCompat="@drawable/ic_left_calander"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/monthText"
+        android:tag="dateTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto_regular"
+        style="@style/RobotoCalendarMonthText"/>
+    <ImageView
+        android:id="@+id/rightButton"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="@dimen/roboto_calendar_padding"
+        android:layout_marginRight="@dimen/roboto_calendar_padding"
+        android:rotation="180"
+        app:srcCompat="@drawable/ic_left_calander"/>
+</LinearLayout>

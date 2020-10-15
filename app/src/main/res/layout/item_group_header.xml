@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@+id/headerlayout"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="80dp"
+        android:paddingTop="10dp"
+        android:paddingRight="17dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="1dp">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:src="@drawable/salon_at_home"/>
+        <TextView
+            android:textSize="13.3sp"
+            android:textColor="#394556"
+            android:layout_gravity="center"
+            android:id="@+id/textView1"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Vegetable &amp; Fruit "
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_regular"/>
+    </LinearLayout>
+    <View
+        android:background="#e2e2e2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="15dp"/>
+</LinearLayout>

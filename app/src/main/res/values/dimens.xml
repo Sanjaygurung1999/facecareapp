@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="headerTextSize">25sp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginViewsMargin">20dp</dimen>
+
+    <dimen name="roboto_calendar_padding">8dp</dimen>
+    <dimen name="roboto_calendar_month_font">16sp</dimen>
+    <dimen name="roboto_calendar_day_of_week_font">11.7sp</dimen>
+    <dimen name="roboto_calendar_day_of_the_month_font">13sp</dimen>
+
+
+    <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
+
+
+
+    <dimen name="dateTitlePaddingBottom">5dp</dimen>
+    <dimen name="dayOfMonthBoxSize">44dp</dimen>
+    <dimen name="dayOfMonthImageMarginTop">32dp</dimen>
+    <dimen name="dayOfMonthImageSize">4dp</dimen>
+    <dimen name="dayOfMonthMinHeight">0dp</dimen>
+    <dimen name="dayOfMonthMinWidth">50dp</dimen>
+    <dimen name="dayOfMonthPaddingBottom">0dp</dimen>
+    <dimen name="dayOfMonthSize">34dp</dimen>
+    <dimen name="day_label_size_events_disabled">38dp</dimen>
+    <dimen name="day_label_size_events_enabled">30dp</dimen>
+
+    <dimen name="roboto_calendar_circle_size">4dp</dimen>
+    <dimen name="roboto_calendar_day_of_the_month_background_size">40dp</dimen>
+
+    <dimen name="roboto_calendar_month_margin_bottom">5dp</dimen>
+
+    <dimen name="roboto_calendar_ring_size">18dp</dimen>
+    <dimen name="roboto_calendar_week_margin_bottom">5dp</dimen>
+    <dimen name="row_height">44dp</dimen>
+    <dimen name="strip_height">28dp</dimen>
+    <dimen name="text_size_date">18sp</dimen>
+    <dimen name="text_size_title">22sp</dimen>
+    <dimen name="text_size_week">15sp</dimen>
+
+    <dimen name="weekDaysPaddingBottom">0dp</dimen>
+    <dimen name="weekRowMinHeight">44dp</dimen>
+</resources>

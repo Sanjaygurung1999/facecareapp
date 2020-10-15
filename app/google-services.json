@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "108892515930",
+    "firebase_url": "https://farecare-e3bfd.firebaseio.com",
+    "project_id": "farecare-e3bfd",
+    "storage_bucket": "farecare-e3bfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108892515930:android:971c0a933004cbeef63263",
+        "android_client_info": {
+          "package_name": "com.example.farecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108892515930-j9ognn18mhq0220gfdg6l2r8dhq60inm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSUSKqdtxhF7eIcDKTMNp_Iqykf8sPN28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108892515930-j9ognn18mhq0220gfdg6l2r8dhq60inm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
